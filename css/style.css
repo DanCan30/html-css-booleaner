@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+#logo {
+    width: 400px;
+}
+
+nav {
+    background-image: url("/img/pattern.png");
+    padding-top: 70px;
+    padding-left: 20px;
+    margin: 0;
+}
+
+header {
+    margin: 30px;
+    font-size: 400%;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+#author_info {
+    margin-top: 0;
+    color: #A4A4A4;
+}
+
+header a {
+    color: #20A9E5;
+    text-decoration: none;
+}
+
+#img_1 {
+    width: 52%;
+}
+
+#img_2 {
+    width: 44%;
+}
+
+#photo_description {
+    font-size: 28px;
+    margin-top: 0;
+}
