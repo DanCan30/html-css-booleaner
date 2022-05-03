@@ -11,7 +11,7 @@ body {
 
 #logo {
     width: 160px;
-    padding-left: 480px;
+    margin-left: 480px;
 }
 
 nav {
@@ -19,7 +19,6 @@ nav {
     background-color: #4EA0FF;
     background-size: 13%;
     padding-top: 35px;
-    padding-left: 5px;
     margin: 0;
     width: 100%;
     position: fixed;
@@ -43,7 +42,7 @@ header p {
     font-size: 120%;
 }
 
-#author_info {
+.author_info {
     margin: 0;
     color: #A4A4A4;
     font-weight: bold;
@@ -87,6 +86,7 @@ table {
     width: 100%;
     text-align: left;
     border: 1px solid black;
+    border-spacing: 3px;
 }
 
 td, th {
@@ -97,14 +97,7 @@ td, th {
 
 thead {   
     background: #20A9E5;
-}
-
-#thead1 {
-    width: 25%;
-}
-
-#thead2 {
-    width: 25%;
+    color: white;
 }
 
 #thead3 {
@@ -123,7 +116,7 @@ footer h2 {
     color: #9C9C9C;
 }
 
-#first_ad {
+#first_banner {
     background-image: url('../img/monitor.jpg');
     background-repeat: no-repeat;
     height: 200px;
@@ -132,7 +125,7 @@ footer h2 {
     padding: 10px 0 0 10px;
 }
 
-#second_ad {
+#second_banner {
     background-image: url('../img/graph.jpg');
     background-repeat: no-repeat;
     height: 200px;

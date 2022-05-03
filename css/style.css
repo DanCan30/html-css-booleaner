@@ -80,18 +80,12 @@ ul {
 table {
     width: 100%;
     text-align: left;
+    border-spacing: 0;
 }
 
 thead {   
     background: #20A9E5;
-}
-
-#thead1 {
-    width: 25%;
-}
-
-#thead2 {
-    width: 25%;
+    color: white;
 }
 
 #thead3 {
@@ -110,7 +104,7 @@ footer h2 {
     color: #9C9C9C;
 }
 
-#first_ad {
+#first_banner {
     background-image: url('../img/monitor.jpg');
     background-repeat: no-repeat;
     height: 200px;
@@ -119,7 +113,7 @@ footer h2 {
     padding: 10px 0 0 10px;
 }
 
-#second_ad {
+#second_banner {
     background-image: url('../img/graph.jpg');
     background-repeat: no-repeat;
     height: 200px;
